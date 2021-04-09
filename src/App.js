@@ -1,9 +1,11 @@
 import { Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
+import { GlobalStyle } from "./App.styles";
 
 function App() {
   return (
     <>
+      <GlobalStyle />
       <Navbar />
       <Switch>
         <Route exact path="/" render={() => <h1>Home</h1>} />
