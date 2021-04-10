@@ -177,12 +177,15 @@ export const Links = styled.div`
 
 export const RightSideIcons = styled.div`
   display: flex;
-  a {
-    text-decoration: none;
+  i {
     color: inherit;
     font-size: 2rem;
     margin: auto 5px;
     margin-bottom: 20%;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   .hamburguer {

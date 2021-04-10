@@ -60,21 +60,15 @@ const Navbar = () => {
         </MiddleSection>
         <RightSideIcons>
           <div className="icons">
-            <Link to="/">
-              <i className="fas fa-user-circle"></i>
-            </Link>
-            <Link to="/">
-              <i className="fas fa-heart"></i>
-            </Link>
-            <Link to="/">
-              <i className="fas fa-shopping-bag"></i>
-            </Link>
+            <i className="fas fa-user-circle"></i>
+            <i className="fas fa-heart"></i>
+            <i className="fas fa-shopping-bag"></i>
           </div>
           <div className="hamburguer" onClick={() => setShowMenu(!showMenu)}>
             {showMenu ? (
               <i className="fas fa-times"></i>
             ) : (
-              <i class="fas fa-bars"></i>
+              <i className="fas fa-bars"></i>
             )}
           </div>
         </RightSideIcons>
