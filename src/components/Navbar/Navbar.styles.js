@@ -121,17 +121,57 @@ export const Links = styled.div`
       a {
         text-decoration: none;
         margin: 5px;
+        height: fit-content;
         color: inherit;
       }
 
       a.active {
+        margin-bottom: 3px;
         border-bottom: 2px solid white;
       }
     }
   }
 
   @media screen and (max-width: 800px) {
-    display: none;
+    transform: ${({ showMenu }) =>
+      showMenu ? "translateX(0)" : "translateX(-100vw)"};
+    transition: transform 100ms ease-in-out;
+    position: absolute;
+    left: 0;
+    top: 59px;
+    background-color: ${({ theme }) => theme.orangeWeb};
+    z-index: 50;
+    width: 100%;
+    max-width: 100vw;
+    height: calc(100% - 59px);
+
+    ul {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      li {
+        position: relative;
+        list-style: none;
+        font-size: 1.5rem;
+        text-align: center;
+        width: 100%;
+
+        a {
+          padding: 30px;
+          width: 100%;
+          text-decoration: none;
+          color: inherit;
+          margin: auto;
+        }
+
+        a.active {
+          border-bottom: 2px solid white;
+          background-color: rgba(255, 255, 255, 0.2);
+        }
+      }
+    }
   }
 `;
 
@@ -147,6 +187,10 @@ export const RightSideIcons = styled.div`
 
   .hamburguer {
     display: none;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   @media screen and (max-width: 800px) {
@@ -156,9 +200,13 @@ export const RightSideIcons = styled.div`
 
     .hamburguer {
       display: flex;
+      font-size: 1.7rem;
+      margin: 5px;
+      text-align: center;
 
-      a {
+      i {
         margin: auto;
+        width: 30px;
       }
     }
   }

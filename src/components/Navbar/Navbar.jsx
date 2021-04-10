@@ -1,3 +1,5 @@
+import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import {
   Container,
   Links,
@@ -11,6 +13,13 @@ import { Link, NavLink } from "react-router-dom";
 import { IconButton } from "../Button/Button.styles";
 
 const Navbar = () => {
+  const location = useLocation();
+  const [showMenu, setShowMenu] = useState(false);
+
+  useEffect(() => {
+    setShowMenu(false);
+  }, [location]);
+
   return (
     <Nav>
       <Container>
@@ -27,7 +36,7 @@ const Navbar = () => {
             </IconButton>
             <input type="text" placeholder="Qué estás buscando?" />
           </SearchSection>
-          <Links>
+          <Links showMenu={showMenu}>
             <ul>
               <li>
                 <NavLink activeClassName="active" to="/categoria1">
@@ -52,19 +61,21 @@ const Navbar = () => {
         <RightSideIcons>
           <div className="icons">
             <Link to="/">
-              <i class="fas fa-user-circle"></i>
+              <i className="fas fa-user-circle"></i>
             </Link>
             <Link to="/">
-              <i class="fas fa-heart"></i>
+              <i className="fas fa-heart"></i>
             </Link>
             <Link to="/">
-              <i class="fas fa-shopping-bag"></i>
+              <i className="fas fa-shopping-bag"></i>
             </Link>
           </div>
-          <div className="hamburguer">
-            <Link to="/">
+          <div className="hamburguer" onClick={() => setShowMenu(!showMenu)}>
+            {showMenu ? (
+              <i className="fas fa-times"></i>
+            ) : (
               <i class="fas fa-bars"></i>
-            </Link>
+            )}
           </div>
         </RightSideIcons>
       </Container>
