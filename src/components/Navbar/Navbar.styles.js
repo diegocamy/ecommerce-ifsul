@@ -13,6 +13,11 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 800px) {
+    height: 60px;
+    justify-content: space-between;
+  }
 `;
 
 export const Logo = styled.div`
@@ -28,11 +33,27 @@ export const Logo = styled.div`
       font-size: 2rem;
       font-weight: bold;
       text-transform: uppercase;
-      letter-spacing: 3px;
+      line-height: 0.8;
     }
 
     p {
       font-size: 0.8rem;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    a {
+      h1 {
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    a {
+      h1 {
+        font-size: 1.3rem;
+      }
     }
   }
 `;
@@ -59,6 +80,32 @@ export const SearchSection = styled.div`
     padding-left: 5px;
     flex-grow: 1;
   }
+
+  @media screen and (max-width: 800px) {
+    input {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    width: 90%;
+    button {
+      font-size: 1rem;
+    }
+    input {
+      font-size: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    button {
+      font-size: 0.9rem;
+    }
+
+    input {
+      font-size: 0.9rem;
+    }
+  }
 `;
 
 export const Links = styled.div`
@@ -82,13 +129,37 @@ export const Links = styled.div`
       }
     }
   }
+
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
 `;
 
 export const RightSideIcons = styled.div`
   display: flex;
-  button {
+  a {
+    text-decoration: none;
+    color: inherit;
     font-size: 2rem;
-    margin-left: 5px;
+    margin: auto 5px;
     margin-bottom: 20%;
+  }
+
+  .hamburguer {
+    display: none;
+  }
+
+  @media screen and (max-width: 800px) {
+    .icons {
+      display: none;
+    }
+
+    .hamburguer {
+      display: flex;
+
+      a {
+        margin: auto;
+      }
+    }
   }
 `;

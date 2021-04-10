@@ -50,15 +50,22 @@ const Navbar = () => {
           </Links>
         </MiddleSection>
         <RightSideIcons>
-          <IconButton bgColor="transparent" color="white">
-            <i class="fas fa-user-circle"></i>
-          </IconButton>
-          <IconButton bgColor="transparent" color="white">
-            <i class="fas fa-heart"></i>
-          </IconButton>
-          <IconButton bgColor="transparent" color="white">
-            <i class="fas fa-shopping-bag"></i>
-          </IconButton>
+          <div className="icons">
+            <Link to="/">
+              <i class="fas fa-user-circle"></i>
+            </Link>
+            <Link to="/">
+              <i class="fas fa-heart"></i>
+            </Link>
+            <Link to="/">
+              <i class="fas fa-shopping-bag"></i>
+            </Link>
+          </div>
+          <div className="hamburguer">
+            <Link to="/">
+              <i class="fas fa-bars"></i>
+            </Link>
+          </div>
         </RightSideIcons>
       </Container>
     </Nav>
