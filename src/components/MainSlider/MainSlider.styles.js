@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Slider = styled.main`
-  max-height: 400px;
   background-color: #fafafa;
+  max-height: 500px;
 
   .swiper-container {
     height: fit-content;

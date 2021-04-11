@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import SwiperCore, {
   Navigation,
   Pagination,
@@ -10,6 +11,8 @@ import { ImageContainer, Slider } from "./MainSlider.styles";
 
 import banner1 from "../../assets/mainslider/banner1.png";
 import banner2 from "../../assets/mainslider/banner2.png";
+import banner1sq from "../../assets/mainslider/banner1sq.png";
+import banner2sq from "../../assets/mainslider/banner2sq.png";
 
 // Import Swiper styles
 import "swiper/swiper.scss";
@@ -21,6 +24,19 @@ import "swiper/components/scrollbar/scrollbar.scss";
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
 function MainSlider() {
+  const [windowWidth, setWindowWidth] = useState(0);
+  useEffect(() => {
+    const handleWidth = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleWidth);
+
+    return () => {
+      return window.removeEventListener("resize", handleWidth);
+    };
+  }, []);
+
   return (
     <Slider>
       <Swiper
@@ -31,16 +47,33 @@ function MainSlider() {
         autoplay={{ delay: 3000 }}
         pagination={{ clickable: true }}
       >
-        <SwiperSlide>
-          <ImageContainer>
-            <img src={banner1} alt="banner 1" />
-          </ImageContainer>
-        </SwiperSlide>
-        <SwiperSlide>
-          <ImageContainer>
-            <img src={banner2} alt="banner 2" />
-          </ImageContainer>
-        </SwiperSlide>
+        {windowWidth > 600 ? (
+          <>
+            <SwiperSlide>
+              <ImageContainer>
+                <img src={banner1} alt="banner 1" />
+              </ImageContainer>
+            </SwiperSlide>
+            <SwiperSlide>
+              <ImageContainer>
+                <img src={banner2} alt="banner 2" />
+              </ImageContainer>
+            </SwiperSlide>
+          </>
+        ) : (
+          <>
+            <SwiperSlide>
+              <ImageContainer>
+                <img src={banner1sq} alt="banner 1" />
+              </ImageContainer>
+            </SwiperSlide>
+            <SwiperSlide>
+              <ImageContainer>
+                <img src={banner2sq} alt="banner 2" />
+              </ImageContainer>
+            </SwiperSlide>
+          </>
+        )}
       </Swiper>
     </Slider>
   );
