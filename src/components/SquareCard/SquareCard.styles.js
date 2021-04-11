@@ -36,6 +36,11 @@ export const Card = styled.div`
     height: 140px;
     width: 140px;
   }
+
+  @media screen and (max-width: 370px) {
+    height: 120px;
+    width: 120px;
+  }
 `;
 
 export const CardText = styled.h2`
