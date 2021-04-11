@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import SwiperCore, {
   Navigation,
   Pagination,
@@ -14,6 +13,8 @@ import banner2 from "../../assets/mainslider/banner2.png";
 import banner1sq from "../../assets/mainslider/banner1sq.png";
 import banner2sq from "../../assets/mainslider/banner2sq.png";
 
+import { useWidth } from "../../hooks/useWidth";
+
 // Import Swiper styles
 import "swiper/swiper.scss";
 import "swiper/components/navigation/navigation.scss";
@@ -24,18 +25,7 @@ import "swiper/components/scrollbar/scrollbar.scss";
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
 function MainSlider() {
-  const [windowWidth, setWindowWidth] = useState(0);
-  useEffect(() => {
-    const handleWidth = () => {
-      setWindowWidth(window.innerWidth);
-    };
-
-    window.addEventListener("resize", handleWidth);
-
-    return () => {
-      return window.removeEventListener("resize", handleWidth);
-    };
-  }, []);
+  const windowWidth = useWidth();
 
   return (
     <Slider>
