@@ -16,26 +16,17 @@ import "swiper/components/navigation/navigation.scss";
 import "swiper/components/pagination/pagination.scss";
 import "swiper/components/scrollbar/scrollbar.scss";
 import { useWidth } from "../../hooks/useWidth";
+import { obtenerProductosAleatorios } from "../../utils/utils";
 // install Swiper modules
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
-const data = {
-  id: "533418",
-  nombre: "Tapado - Gris",
-  precio: "$1.399,00",
-  foto:
-    "https://s.fenicio.app/f/bas/productos/bas-fw21-00474-4500px_450x600_1615921841_298.jpg",
-  slug: "tapado_gris",
-  categoria: "femenino",
-  tamanios: ["P", "G", "GG"],
-};
-
-const ProductCards = () => {
+const ProductCards = ({ text, numOfCards }) => {
   const windowWidth = useWidth();
+  const products = obtenerProductosAleatorios(numOfCards);
 
   return (
     <Section>
-      <h1>Últimas novedades</h1>
+      <h1>{text}</h1>
       <Swiper
         slidesPerView={1}
         navigation={windowWidth > 1040 ? true : false}
@@ -55,24 +46,13 @@ const ProductCards = () => {
         speed={1000}
         pagination={{ clickable: true }}
       >
-        <SwiperSlide>
-          <ProductCard product={data} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ProductCard product={data} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ProductCard product={data} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ProductCard product={data} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ProductCard product={data} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ProductCard product={data} />
-        </SwiperSlide>
+        {products.map((p) => {
+          return (
+            <SwiperSlide key={p.id}>
+              <ProductCard product={p} />
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
     </Section>
   );

@@ -4,9 +4,9 @@ import SquareCards from "../components/SquareCards/SquareCards";
 import app_big from "../assets/app/app_big.png";
 import app_med from "../assets/app/app_med.png";
 import app_small from "../assets/app/app_small.png";
-import { BigCardsContainer, MainSection } from "./Home.styles";
+import { MainSection } from "./Home.styles";
 import ProductCards from "../components/ProductCards/ProductCards";
-import BigCard from "../components/BigCard/BigCard";
+import BigCards from "../components/BigCards/BigCards";
 
 const Home = () => {
   return (
@@ -22,25 +22,22 @@ const Home = () => {
       </picture>
       <div className="gray">
         <Container>
-          <ProductCards />
+          <ProductCards text="Últimas novedades" numOfCards={9} />
         </Container>
       </div>
-      <BigCardsContainer>
-        <BigCard
-          img="https://s.fenicio.app/f/bas/productos/bas-fw21-00474-4500px_450x600_1615921841_298.jpg"
-          text="Novedades en Jeans"
-          subtext="A partir de $799,90"
-          buttonText="Descubrir"
-          linkTo="/masculino"
-        />
-        <BigCard
-          img="https://s.fenicio.app/f/bas/productos/bas-fw21-00474-4500px_450x600_1615921841_298.jpg"
-          text="Novedades en Jeans"
-          subtext="A partir de $799,90"
-          buttonText="Descubrir"
-          linkTo="/masculino"
-        />
-      </BigCardsContainer>
+      <BigCards numOfCards={2} />
+      <div className="gray">
+        <Container>
+          <ProductCards text="Preferidos del momento" numOfCards={9} />
+        </Container>
+      </div>
+      <BigCards numOfCards={2} />
+      <div className="gray">
+        <Container>
+          <ProductCards text="Elegidos especialmente para ti" numOfCards={9} />
+        </Container>
+      </div>
+      <BigCards numOfCards={2} />
     </MainSection>
   );
 };

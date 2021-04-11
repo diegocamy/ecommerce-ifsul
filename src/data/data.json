@@ -1,0 +1,498 @@
+[
+  {
+    "id": "533418",
+    "nombre": "Tapado - Gris",
+    "precio": "$1.399,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/bas-fw21-00474-4500px_450x600_1615921841_298.jpg",
+    "slug": "tapado_gris",
+    "categoria": "femenino",
+    "tamanios": ["P", "G", "GG"]
+  },
+  {
+    "id": "525223",
+    "nombre": "Tapado - Terracota",
+    "precio": "$1.399,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/062096-1_450x600_1615433563_9d6.jpg",
+    "slug": "tapado_terracota",
+    "categoria": "femenino",
+    "tamanios": ["P", "G"]
+  },
+  {
+    "id": "3134",
+    "nombre": "Cardigan punto - Topo",
+    "precio": "$999,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/062208-1_450x600_1615432301_95e.jpg",
+    "slug": "cardigan_punto_topo",
+    "categoria": "femenino",
+    "tamanios": ["GG"]
+  },
+  {
+    "id": "316638",
+    "nombre": "Cardigan punto - Mostaza",
+    "precio": "$999,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/062207-1_450x600_1615432402_3b9.jpg",
+    "slug": "cardigan_punto_mostaza",
+    "categoria": "femenino",
+    "tamanios": ["P", "M", "GG"]
+  },
+  {
+    "id": "573589",
+    "nombre": "Cardigan punto - Verde oliva",
+    "precio": "$999,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/062209-1_450x600_1615432217_2ef.jpg",
+    "slug": "cardigan_punto_verde_oliva",
+    "categoria": "femenino",
+    "tamanios": ["P", "M", "G"]
+  },
+  {
+    "id": "514094",
+    "nombre": "Jean mom fit - Beige",
+    "precio": "$1.199,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/062195-1_450x600_1614860157_368.jpg",
+    "slug": "jean_mom_fit_beige",
+    "categoria": "femenino",
+    "tamanios": ["P", "M", "G", "GG"]
+  },
+  {
+    "id": "404473",
+    "nombre": "Jean mom fit - Terracota",
+    "precio": "$1.199,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/fw21-606_450x600_1615919818_c75.jpg",
+    "slug": "jean_mom_fit_terracota",
+    "categoria": "femenino",
+    "tamanios": ["P", "M", "G", "GG"]
+  },
+  {
+    "id": "364472",
+    "nombre": "Jean mom fit - Verde militar",
+    "precio": "$1.199,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/062198-1_450x600_1614860374_d4a.jpg",
+    "slug": "jean_mom_fit_verde_militar",
+    "categoria": "femenino",
+    "tamanios": ["P", "M"]
+  },
+  {
+    "id": "562119",
+    "nombre": "Polera rib - Crudo",
+    "precio": "$699,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/fw21-604_450x600_1615919775_dd2.jpg",
+    "slug": "polera_rib_crudo",
+    "categoria": "femenino",
+    "tamanios": ["P", "M", "GG"]
+  },
+  {
+    "id": "448212",
+    "nombre": "Polera rib - Verde",
+    "precio": "$699,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/062189-2_450x600_1615429841_ce4.jpg",
+    "slug": "polera_rib_verde",
+    "categoria": "femenino",
+    "tamanios": ["P", "M"]
+  },
+  {
+    "id": "184128",
+    "nombre": "Polera rib - Terracota",
+    "precio": "$699,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/062188-1_450x600_1615429784_2f6.jpg",
+    "slug": "polera_rib_terracota",
+    "categoria": "femenino",
+    "tamanios": ["P", "M", "G"]
+  },
+  {
+    "id": "249141",
+    "nombre": "Polera punto fantasía - Gris",
+    "precio": "$999,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/fw21-610_450x600_1615919930_e09.jpg",
+    "slug": "polera_punto_fantasía_gris",
+    "categoria": "femenino",
+    "tamanios": ["M", "GG"]
+  },
+  {
+    "id": "438083",
+    "nombre": "Campera polar - Gris oscuro",
+    "precio": "$899,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/1-081371-1_450x600_1617029021_c27.jpg",
+    "slug": "campera_polar_gris_oscuro",
+    "categoria": "masculino",
+    "tamanios": []
+  },
+  {
+    "id": "56213",
+    "nombre": "Campera polar - Azul melange",
+    "precio": "$899,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/1-081370-1_450x600_1617028914_adb.jpg",
+    "slug": "campera_polar_azul_melange",
+    "categoria": "masculino",
+    "tamanios": ["P", "M", "G"]
+  },
+  {
+    "id": "515145",
+    "nombre": "Campera polar - Gris combinada",
+    "precio": "$899,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/1-081372-2_450x600_1617029126_ae2.jpg",
+    "slug": "campera_polar_gris_combinada",
+    "categoria": "masculino",
+    "tamanios": ["P", "M", "G", "GG"]
+  },
+  {
+    "id": "518519",
+    "nombre": "Pantalón chino - Azul",
+    "precio": "$1.199,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/080957-1_450x600_1584544196_2bb.jpg",
+    "slug": "pantalón_chino_azul",
+    "categoria": "masculino",
+    "tamanios": ["P", "M", "G"]
+  },
+  {
+    "id": "338780",
+    "nombre": "Pantalón chino - Gris",
+    "precio": "$1.199,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/1-080959-1_450x600_1615922103_7e6.jpg",
+    "slug": "pantalón_chino_gris",
+    "categoria": "masculino",
+    "tamanios": ["P", "M", "GG"]
+  },
+  {
+    "id": "291793",
+    "nombre": "Pantalón chino - Beige",
+    "precio": "$1.199,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/bas-fw21-00087-4500px_450x600_1615921881_763.jpg",
+    "slug": "pantalón_chino_beige",
+    "categoria": "masculino",
+    "tamanios": ["G", "GG"]
+  },
+  {
+    "id": "316472",
+    "nombre": "Pantalón chino - Verde",
+    "precio": "$1.199,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/2-080963-1_450x600_1615922062_d8d.jpg",
+    "slug": "pantalón_chino_verde",
+    "categoria": "masculino",
+    "tamanios": ["M", "GG"]
+  },
+  {
+    "id": "578386",
+    "nombre": "Campera Bomber combinada - Azul",
+    "precio": "$1.699,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/081376-1_450x600_1615474880_e47.jpg",
+    "slug": "campera_bomber_combinada_azul",
+    "categoria": "masculino",
+    "tamanios": ["G", "GG"]
+  },
+  {
+    "id": "74113",
+    "nombre": "Campera Bomber combinada - Negro",
+    "precio": "$1.699,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/081377-1_450x600_1615474973_ce0.jpg",
+    "slug": "campera_bomber_combinada_negro",
+    "categoria": "masculino",
+    "tamanios": ["P", "M", "GG"]
+  },
+  {
+    "id": "23132",
+    "nombre": "Campera de abrigo con capucha - Azul",
+    "precio": "$1.599,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/081369-1_450x600_1615474106_2a1.jpg",
+    "slug": "campera_de_abrigo_con_capucha_azul",
+    "categoria": "masculino",
+    "tamanios": ["G"]
+  },
+  {
+    "id": "132086",
+    "nombre": "Campera de abrigo con capucha - Negro",
+    "precio": "$1.599,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/081368-1_450x600_1615474042_01f.jpg",
+    "slug": "campera_de_abrigo_con_capucha_negro",
+    "categoria": "masculino",
+    "tamanios": ["P", "G"]
+  },
+  {
+    "id": "530897",
+    "nombre": "Camisa Oxford - Azul",
+    "precio": "$999,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/081353-1_450x600_1615402902_780.jpg",
+    "slug": "camisa_oxford_azul",
+    "categoria": "masculino",
+    "tamanios": ["P", "M", "GG"]
+  },
+  {
+    "id": "434933",
+    "nombre": "Zapatilla con velcro rosa",
+    "precio": "$999,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/091856-1_450x600_1618012107_de4.jpg",
+    "slug": "zapatilla_con_velcro_rosa",
+    "categoria": "kids",
+    "tamanios": ["P", "M"]
+  },
+  {
+    "id": "205834",
+    "nombre": "Deportivo con cordones",
+    "precio": "$849,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/1-091855-1_450x600_1614349348_4f6.jpg",
+    "slug": "deportivo_con_cordones",
+    "categoria": "kids",
+    "tamanios": ["G", "GG"]
+  },
+  {
+    "id": "483871",
+    "nombre": "Remera manga larga combinada - Gris y rojo",
+    "precio": "$499,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/024528-1_450x600_1614351199_717.jpg",
+    "slug": "remera_manga_larga_combinada_gris_y_rojo",
+    "categoria": "kids",
+    "tamanios": ["M", "G"]
+  },
+  {
+    "id": "433824",
+    "nombre": "Remera manga larga combinada - Gris y mostaza",
+    "precio": "$499,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/024529-1_450x600_1614351339_07c.jpg",
+    "slug": "remera_manga_larga_combinada_gris_y_mostaza",
+    "categoria": "kids",
+    "tamanios": ["P", "M", "G", "GG"]
+  },
+  {
+    "id": "544838",
+    "nombre": "Remera combinada Stand On",
+    "precio": "$399,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/024530-1_450x600_1614565737_d50.jpg",
+    "slug": "remera_combinada_stand_on",
+    "categoria": "kids",
+    "tamanios": ["P", "GG"]
+  },
+  {
+    "id": "542946",
+    "nombre": "Remera combinada Park",
+    "precio": "$399,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/024531-2_450x600_1614565848_869.jpg",
+    "slug": "remera_combinada_park",
+    "categoria": "kids",
+    "tamanios": ["P", "M", "G"]
+  },
+  {
+    "id": "556477",
+    "nombre": "Remera manga larga rayada - Roja",
+    "precio": "$499,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/024532-1_450x600_1614352012_c35.jpg",
+    "slug": "remera_manga_larga_rayada_roja",
+    "categoria": "kids",
+    "tamanios": ["M", "GG"]
+  },
+  {
+    "id": "235550",
+    "nombre": "Remera manga larga rayada - Azul y mostaza",
+    "precio": "$499,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/024533-1_450x600_1614352221_7b8.jpg",
+    "slug": "remera_manga_larga_rayada_azul_y_mostaza",
+    "categoria": "kids",
+    "tamanios": ["M", "GG"]
+  },
+  {
+    "id": "317111",
+    "nombre": "Remera manga larga con estampa - Fear",
+    "precio": "$449,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/024534-1_450x600_1614565548_190.jpg",
+    "slug": "remera_manga_larga_con_estampa_fear",
+    "categoria": "kids",
+    "tamanios": ["G"]
+  },
+  {
+    "id": "453021",
+    "nombre": "Remera manga larga con estampa - Beyond",
+    "precio": "$449,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/024535-1_450x600_1614565605_ed4.jpg",
+    "slug": "remera_manga_larga_con_estampa_beyond",
+    "categoria": "kids",
+    "tamanios": ["P", "M", "G"]
+  },
+  {
+    "id": "287902",
+    "nombre": "Buzo deportivo con capucha rojo",
+    "precio": "$699,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/024539-1_450x600_1614566847_6e0.jpg",
+    "slug": "buzo_deportivo_con_capucha_rojo",
+    "categoria": "kids",
+    "tamanios": ["P"]
+  },
+  {
+    "id": "579627",
+    "nombre": "Pantalón cargo - De Jean",
+    "precio": "$899,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/024565-1_450x600_1615033860_253.jpg",
+    "slug": "pantalón_cargo_de_jean",
+    "categoria": "kids",
+    "tamanios": ["M", "GG"]
+  },
+  {
+    "id": "592641",
+    "nombre": "Body con cuello - Gris",
+    "precio": "$349,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/021945-1_450x600_1585845926_f4f.jpg",
+    "slug": "body_con_cuello_gris",
+    "categoria": "outlet",
+    "tamanios": ["G"]
+  },
+  {
+    "id": "150637",
+    "nombre": "Body con cuello - Blanco",
+    "precio": "$349,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/1-021948-7_450x600_1584557364_dd2.jpg",
+    "slug": "body_con_cuello_blanco",
+    "categoria": "outlet",
+    "tamanios": ["P", "M", "GG"]
+  },
+  {
+    "id": "122103",
+    "nombre": "Remera a rayas con cuello en V - Bordeaux",
+    "precio": "$399,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/081117-1_450x600_1600358624_24a.jpg",
+    "slug": "remera_a_rayas_con_cuello_en_v_bordeaux",
+    "categoria": "outlet",
+    "tamanios": ["M", "G", "GG"]
+  },
+  {
+    "id": "461900",
+    "nombre": "Short de baño estampado - Floreado",
+    "precio": "$399,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/081178-1_450x600_1599224639_dfc.jpg",
+    "slug": "short_de_baño_estampado_floreado",
+    "categoria": "outlet",
+    "tamanios": ["M", "GG"]
+  },
+  {
+    "id": "46984",
+    "nombre": "Short de baño estampado - Montsera",
+    "precio": "$399,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/081139-1_450x600_1599224702_7b4.jpg",
+    "slug": "short_de_baño_estampado_montsera",
+    "categoria": "outlet",
+    "tamanios": ["M", "G", "GG"]
+  },
+  {
+    "id": "142501",
+    "nombre": "Short de baño estampado - Tropical",
+    "precio": "$399,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/081096-1_450x600_1599223490_59b.jpg",
+    "slug": "short_de_baño_estampado_tropical",
+    "categoria": "outlet",
+    "tamanios": ["P"]
+  },
+  {
+    "id": "331373",
+    "nombre": "Short de baño estampado - Cuadritos",
+    "precio": "$399,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/1-081137-1_450x600_1600789314_880.jpg",
+    "slug": "short_de_baño_estampado_cuadritos",
+    "categoria": "outlet",
+    "tamanios": ["M", "G", "GG"]
+  },
+
+  {
+    "id": "529390",
+    "nombre": "Musculosa interior - Blanco y coral",
+    "precio": "$99,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/2-061046-1_450x600_1607448731_24b.jpg",
+    "slug": "musculosa_interior_blanco_y_coral",
+    "categoria": "novedades",
+    "tamanios": ["P"]
+  },
+  {
+    "id": "396820",
+    "nombre": "Musculosa interior - Blanco y celeste",
+    "precio": "$99,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/1-061047-1_450x600_1607448790_ecc.jpg",
+    "slug": "musculosa_interior_blanco_y_celeste",
+    "categoria": "novedades",
+    "tamanios": ["P", "G"]
+  },
+  {
+    "id": "304854",
+    "nombre": "Blusa floreada acampanada - Violeta",
+    "precio": "$490,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/060846_450x600_1561380445_f1a.jpg",
+    "slug": "blusa_floreada_acampanada_violeta",
+    "categoria": "novedades",
+    "tamanios": ["P", "M", "GG"]
+  },
+  {
+    "id": "528588",
+    "nombre": "Blusa con volados - Flores",
+    "precio": "$390,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/061177-1_450x600_1552337955_e3b.jpg",
+    "slug": "blusa_con_volados_flores",
+    "categoria": "novedades",
+    "tamanios": ["P", "G"]
+  },
+  {
+    "id": "410562",
+    "nombre": "Camisa estampa Flores - Lila",
+    "precio": "$490,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/1-061173-1_450x600_1551455893_efe.jpg",
+    "slug": "camisa_estampa_flores_lila",
+    "categoria": "novedades",
+    "tamanios": ["P", "G"]
+  },
+  {
+    "id": "329999",
+    "nombre": "Camisa estampa Flores - Lavanda",
+    "precio": "$490,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/061174-1_450x600_1551901890_93b.jpg",
+    "slug": "camisa_estampa_flores_lavanda",
+    "categoria": "novedades",
+    "tamanios": ["G"]
+  },
+  {
+    "id": "551150",
+    "nombre": "Camisa formal a cuadros - Azul, Rojo y Blanco",
+    "precio": "$550,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/080682-1_450x600_1556312073_6f9.jpg",
+    "slug": "camisa_formal_a_cuadros_azul,_rojo_y_blanco",
+    "categoria": "novedades",
+    "tamanios": ["G", "GG"]
+  },
+  {
+    "id": "530398",
+    "nombre": "Camisa Stretch a rayas - Rosa",
+    "precio": "$550,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/061181-1_450x600_1555947673_df2.jpg",
+    "slug": "camisa_stretch_a_rayas_rosa",
+    "categoria": "novedades",
+    "tamanios": ["P", "GG"]
+  },
+  {
+    "id": "86701",
+    "nombre": "Remera fitness - Púrpura",
+    "precio": "$390,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/060798-1_450x600_1556217838_7b0.jpg",
+    "slug": "remera_fitness_púrpura",
+    "categoria": "novedades",
+    "tamanios": ["P", "M"]
+  },
+  {
+    "id": "340135",
+    "nombre": "Camisa casual a cuadros - Celeste",
+    "precio": "$550,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/080687-1_450x600_1550672852_e8b.jpg",
+    "slug": "camisa_casual_a_cuadros_celeste",
+    "categoria": "novedades",
+    "tamanios": ["P", "M", "GG"]
+  },
+  {
+    "id": "17962",
+    "nombre": "Remera con cortes - Blanco",
+    "precio": "$390,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/060864-1_450x600_1556294249_0f0.jpg",
+    "slug": "remera_con_cortes_blanco",
+    "categoria": "novedades",
+    "tamanios": ["P", "G", "GG"]
+  },
+  {
+    "id": "223750",
+    "nombre": "Remera con botones - Blanco",
+    "precio": "$390,00",
+    "foto": "https://s.fenicio.app/f/bas/productos/060866-1_450x600_1556294494_165.jpg",
+    "slug": "remera_con_botones_blanco",
+    "categoria": "novedades",
+    "tamanios": ["M", "G"]
+  }
+]
