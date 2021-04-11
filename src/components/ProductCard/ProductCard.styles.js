@@ -40,11 +40,11 @@ export const Card = styled.div`
   }
 
   @media screen and (max-width: 1040px) {
-    max-width: 230px;
+    /* max-width: 230px; */
   }
 
   @media screen and (max-width: 768px) {
-    max-width: 200px;
+    /* max-width: 200px; */
   }
 `;
 

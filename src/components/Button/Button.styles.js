@@ -10,3 +10,22 @@ export const IconButton = styled.button`
     cursor: pointer;
   }
 `;
+
+export const BigButton = styled.button`
+  border: none;
+  background-color: ${({ theme }) => theme.orangeWeb};
+  color: ${({ theme }) => theme.white};
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding: 15px 45px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 767px) {
+    padding: 10px 30px;
+    font-size: 1rem;
+  }
+`;

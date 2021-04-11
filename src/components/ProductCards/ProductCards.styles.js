@@ -28,7 +28,7 @@ export const Section = styled.section`
   .swiper-button-prev {
     display: flex;
     color: ${({ theme }) => theme.orangeWeb};
-    background-color: #f3f3f3;
+    background-color: ${({ theme }) => theme.platinum};
     border-radius: 50%;
     padding: 30px;
 
