@@ -2,6 +2,7 @@ import { Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import { GlobalStyle } from "./App.styles";
 import Home from "./pages/Home";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/product" render={() => <h1>product</h1>} />
         <Route render={() => <h1>404 not found</h1>} />
       </Switch>
+      <Footer />
     </>
   );
 }

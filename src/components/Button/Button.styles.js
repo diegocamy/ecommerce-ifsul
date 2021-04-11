@@ -11,6 +11,18 @@ export const IconButton = styled.button`
   }
 `;
 
+export const Button = styled.button`
+  border: none;
+  background-color: ${({ theme }) => theme.orangeWeb};
+  color: ${({ theme }) => theme.white};
+  font-size: 1rem;
+  padding: 5px 10px;
+
+  &:hover {
+    cursor: pointer;
+  }
+`;
+
 export const BigButton = styled.button`
   border: none;
   background-color: ${({ theme }) => theme.orangeWeb};
