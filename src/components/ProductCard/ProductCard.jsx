@@ -21,10 +21,7 @@ const ProductCard = ({ product }) => {
         </ImageAraea>
         <ProductName>{nombre}</ProductName>
         <ProductPrice>{precio}</ProductPrice>
-        <ProductFee>
-          6x $ {calcularCuota(precio)}
-          sin recargo
-        </ProductFee>
+        <ProductFee>6x $ {calcularCuota(precio)} sin recargo</ProductFee>
       </Link>
       {/* ICONS */}
       <div className="corazon">
