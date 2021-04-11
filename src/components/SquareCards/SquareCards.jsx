@@ -31,11 +31,11 @@ function SquareCards() {
 
       {width > 900 ? (
         <CardsContainer>
-          <SquareCard cardText="Femenino" img={sq4} />
-          <SquareCard cardText="Masculino" img={sq1} />
-          <SquareCard cardText="Novedades" img={sq3} />
-          <SquareCard cardText="Kids" img={sq2} />
-          <SquareCard cardText="Outlet" img={sq5} />
+          <SquareCard cardText="Femenino" img={sq4} link="/femenino" />
+          <SquareCard cardText="Masculino" img={sq1} link="/masculino" />
+          <SquareCard cardText="Novedades" img={sq3} link="/novedades" />
+          <SquareCard cardText="Kids" img={sq2} link="/kids" />
+          <SquareCard cardText="Outlet" img={sq5} link="/outlet" />
         </CardsContainer>
       ) : (
         <Swiper
@@ -44,19 +44,19 @@ function SquareCards() {
           pagination={{ clickable: true }}
         >
           <SwiperSlide>
-            <SquareCard cardText="Femenino" img={sq4} />
+            <SquareCard cardText="Femenino" img={sq4} link="/femenino" />
           </SwiperSlide>
           <SwiperSlide>
-            <SquareCard cardText="Masculino" img={sq1} />
+            <SquareCard cardText="Masculino" img={sq1} link="/masculino" />
           </SwiperSlide>
           <SwiperSlide>
-            <SquareCard cardText="Novedadees" img={sq3} />
+            <SquareCard cardText="Novedadees" img={sq3} link="/novedades" />
           </SwiperSlide>
           <SwiperSlide>
-            <SquareCard cardText="Kids" img={sq2} />
+            <SquareCard cardText="Kids" img={sq2} link="/kids" />
           </SwiperSlide>
           <SwiperSlide>
-            <SquareCard cardText="Outlet" img={sq5} />
+            <SquareCard cardText="Outlet" img={sq5} link="/outlet" />
           </SwiperSlide>
         </Swiper>
       )}
