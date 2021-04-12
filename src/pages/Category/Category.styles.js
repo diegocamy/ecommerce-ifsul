@@ -19,7 +19,7 @@ export const CategoryContainer = styled.div`
   }
 `;
 
-export const BreadCrumb = styled.p`
+export const BreadCrumb = styled.div`
   margin-bottom: 30px;
   margin-left: 100px;
   h1 {

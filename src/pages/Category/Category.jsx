@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import { useFetchCategory } from "../../hooks/useFetchCategory";
 import Spinner from "../../components/Spinner/Spinner";
 import {
@@ -12,11 +13,18 @@ import ProductCard from "../../components/ProductCard/ProductCard";
 import { Link } from "react-router-dom";
 
 const Category = (props) => {
+  const selectEl = useRef();
   const {
     location: { pathname },
   } = props;
   const categoria = pathname.substring(1);
-  const { loading, products } = useFetchCategory(categoria);
+  const { loading, products, productCategory, sortResults } = useFetchCategory(
+    categoria
+  );
+
+  const handleChange = () => {
+    sortResults(selectEl.current.value);
+  };
 
   if (loading) {
     return <Spinner />;
@@ -26,10 +34,10 @@ const Category = (props) => {
     <Main>
       <CategoryContainer>
         <BreadCrumb>
-          <h1>{categoria}</h1>
+          <h1>{productCategory}</h1>
           <Link to="/">Pagina principal</Link> /{" "}
           <span>
-            <Link to={pathname}>{categoria}</Link>
+            <Link to={pathname}>{productCategory}</Link>
           </span>
         </BreadCrumb>
         <FiltroSuperior>
@@ -40,11 +48,17 @@ const Category = (props) => {
             <option value="12">24</option>
             <option value="12">30</option>
           </select>
-          <select name="ordenar" id="ordenar">
+          <select
+            name="ordenar"
+            id="ordenar"
+            onChange={handleChange}
+            ref={selectEl}
+            defaultValue="por defecto"
+          >
             <option value="por defecto">Por defecto</option>
             <option value="mayor precio">Mayor precio</option>
             <option value="menor precio">Menor precio</option>
-            <option value="nombre ascendente ">Nombre ascendente</option>
+            <option value="nombre ascendente">Nombre ascendente</option>
             <option value="nombre descendente">Nombre descendente</option>
           </select>
         </FiltroSuperior>
