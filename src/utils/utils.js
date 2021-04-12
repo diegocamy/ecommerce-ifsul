@@ -18,10 +18,15 @@ export const obtenerProductosAleatoriosBigCards = (cantidad) => {
     .slice(0, cantidad)
     .map((e) => {
       return {
+        id: e.id,
         foto: e.foto,
         text: text.sort(() => Math.random() - Math.random())[0],
         subText: subText.sort(() => Math.random() - Math.random())[0],
         buttonText: buttonText.sort(() => Math.random() - Math.random())[0],
       };
     });
+};
+
+export const ObtenerProductosPorCategoria = (categoria) => {
+  return data.filter((p) => p.categoria === categoria);
 };

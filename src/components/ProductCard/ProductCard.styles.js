@@ -10,6 +10,8 @@ export const Card = styled.div`
   background-color: ${({ theme }) => theme.white};
   text-align: left;
   padding-bottom: 15px;
+  border: ${({ withBorder, theme }) =>
+    withBorder ? "1px solid #f3f3f3" : "none"};
 
   a {
     text-decoration: none;

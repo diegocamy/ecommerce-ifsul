@@ -39,21 +39,21 @@ const Navbar = () => {
           <Links showMenu={showMenu}>
             <ul>
               <li>
-                <NavLink activeClassName="active" to="/categoria1">
+                <NavLink activeClassName="active" to="/novedades">
                   Novedades
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/categoria2">Femenino</NavLink>
+                <NavLink to="/femenino">Femenino</NavLink>
               </li>
               <li>
-                <NavLink to="/categoria3">Masculino</NavLink>
+                <NavLink to="/masculino">Masculino</NavLink>
               </li>
               <li>
-                <NavLink to="/categoria4">Kids</NavLink>
+                <NavLink to="/kids">Kids</NavLink>
               </li>
               <li>
-                <NavLink to="/categoria5">Outlet</NavLink>
+                <NavLink to="/outlet">Outlet</NavLink>
               </li>
             </ul>
           </Links>

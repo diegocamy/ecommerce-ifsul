@@ -15,9 +15,9 @@ const Footer = () => {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ad
             sunt reiciendis! Fugit magni
           </p>
-          <i class="fab fa-facebook-square"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-twitter-square"></i>
+          <i className="fab fa-facebook-square"></i>
+          <i className="fab fa-instagram"></i>
+          <i className="fab fa-twitter-square"></i>
         </div>
         <div className="links">
           <div className="enlaces">

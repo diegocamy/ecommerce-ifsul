@@ -10,11 +10,11 @@ import {
 import { calcularCuota } from "../../utils/utils";
 import { Link } from "react-router-dom";
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, withBorder }) => {
   const { nombre, precio, foto, slug } = product;
 
   return (
-    <Card>
+    <Card withBorder>
       <Link to={`/${slug}`}>
         <ImageAraea>
           <ProductImage src={foto} alt={slug} />
