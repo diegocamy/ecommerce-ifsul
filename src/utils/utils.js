@@ -30,3 +30,6 @@ export const obtenerProductosAleatoriosBigCards = (cantidad) => {
 export const ObtenerProductosPorCategoria = (categoria) => {
   return data.filter((p) => p.categoria === categoria);
 };
+
+export const obtenerProductoPorSlug = (slug) =>
+  data.filter((p) => p.slug === slug);

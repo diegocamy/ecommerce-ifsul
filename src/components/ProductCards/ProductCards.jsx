@@ -16,20 +16,22 @@ import "swiper/components/navigation/navigation.scss";
 import "swiper/components/pagination/pagination.scss";
 import "swiper/components/scrollbar/scrollbar.scss";
 import { useWidth } from "../../hooks/useWidth";
-import { obtenerProductosAleatorios } from "../../utils/utils";
+import { useFetchRandomProducts } from "../../hooks/useFetchRandomProducts";
 // install Swiper modules
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
 const ProductCards = ({ text, numOfCards }) => {
+  const products = useFetchRandomProducts(numOfCards);
   const windowWidth = useWidth();
-  const products = obtenerProductosAleatorios(numOfCards);
+
+  if (!products) return <></>;
 
   return (
-    <Section>
+    <Section windowWidth={windowWidth}>
       <h1>{text}</h1>
       <Swiper
         slidesPerView={1}
-        navigation={windowWidth > 1040 ? true : false}
+        navigation={true}
         breakpoints={{
           400: {
             slidesPerView: 2,

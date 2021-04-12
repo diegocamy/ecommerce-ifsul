@@ -26,7 +26,7 @@ export const Section = styled.section`
 
   .swiper-button-next,
   .swiper-button-prev {
-    display: flex;
+    display: ${({ windowWidth }) => (windowWidth > 1024 ? "flex" : "none")};
     color: ${({ theme }) => theme.orangeWeb};
     background-color: ${({ theme }) => theme.platinum};
     border-radius: 50%;

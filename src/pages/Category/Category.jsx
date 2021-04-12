@@ -15,9 +15,10 @@ import { Link } from "react-router-dom";
 const Category = (props) => {
   const selectEl = useRef();
   const {
-    location: { pathname },
+    match: {
+      params: { category: categoria },
+    },
   } = props;
-  const categoria = pathname.substring(1);
   const { loading, products, productCategory, sortResults } = useFetchCategory(
     categoria
   );
@@ -37,7 +38,7 @@ const Category = (props) => {
           <h1>{productCategory}</h1>
           <Link to="/">Pagina principal</Link> /{" "}
           <span>
-            <Link to={pathname}>{productCategory}</Link>
+            <Link to={categoria}>{productCategory}</Link>
           </span>
         </BreadCrumb>
         <FiltroSuperior>

@@ -12,9 +12,23 @@ export const IconButton = styled.button`
 `;
 
 export const Button = styled.button`
-  border: none;
-  background-color: ${({ theme }) => theme.orangeWeb};
+  background-color: ${({ bgColor, theme }) =>
+    bgColor ? bgColor : theme.orangeWeb};
+  border: 1px solid
+    ${({ bgColor, theme }) => (bgColor ? bgColor : theme.orangeWeb)};
   color: ${({ theme }) => theme.white};
+  font-size: 1rem;
+  padding: 5px 10px;
+
+  &:hover {
+    cursor: pointer;
+  }
+`;
+
+export const WhiteButton = styled.button`
+  border: 1px solid ${({ theme }) => theme.silver};
+  background-color: ${({ theme }) => theme.white};
+  color: ${({ theme }) => theme.black};
   font-size: 1rem;
   padding: 5px 10px;
 

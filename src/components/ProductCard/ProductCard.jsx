@@ -14,8 +14,8 @@ const ProductCard = ({ product, withBorder }) => {
   const { nombre, precio, foto, slug } = product;
 
   return (
-    <Card withBorder>
-      <Link to={`/${slug}`}>
+    <Card withBorder={withBorder}>
+      <Link to={`/products/${slug}`}>
         <ImageAraea>
           <ProductImage src={foto} alt={slug} />
         </ImageAraea>

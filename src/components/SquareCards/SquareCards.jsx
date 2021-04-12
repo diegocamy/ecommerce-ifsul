@@ -31,11 +31,23 @@ function SquareCards() {
 
       {width > 900 ? (
         <CardsContainer>
-          <SquareCard cardText="Femenino" img={sq4} link="/femenino" />
-          <SquareCard cardText="Masculino" img={sq1} link="/masculino" />
-          <SquareCard cardText="Novedades" img={sq3} link="/novedades" />
-          <SquareCard cardText="Kids" img={sq2} link="/kids" />
-          <SquareCard cardText="Outlet" img={sq5} link="/outlet" />
+          <SquareCard
+            cardText="Femenino"
+            img={sq4}
+            link="/categories/femenino"
+          />
+          <SquareCard
+            cardText="Masculino"
+            img={sq1}
+            link="/categories/masculino"
+          />
+          <SquareCard
+            cardText="Novedades"
+            img={sq3}
+            link="/categories/novedades"
+          />
+          <SquareCard cardText="Kids" img={sq2} link="/categories/kids" />
+          <SquareCard cardText="Outlet" img={sq5} link="/categories/outlet" />
         </CardsContainer>
       ) : (
         <Swiper
@@ -44,19 +56,31 @@ function SquareCards() {
           pagination={{ clickable: true }}
         >
           <SwiperSlide>
-            <SquareCard cardText="Femenino" img={sq4} link="/femenino" />
+            <SquareCard
+              cardText="Femenino"
+              img={sq4}
+              link="/categories/femenino"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <SquareCard cardText="Masculino" img={sq1} link="/masculino" />
+            <SquareCard
+              cardText="Masculino"
+              img={sq1}
+              link="/categories/masculino"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <SquareCard cardText="Novedadees" img={sq3} link="/novedades" />
+            <SquareCard
+              cardText="Novedadees"
+              img={sq3}
+              link="/categories/novedades"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <SquareCard cardText="Kids" img={sq2} link="/kids" />
+            <SquareCard cardText="Kids" img={sq2} link="/categories/kids" />
           </SwiperSlide>
           <SwiperSlide>
-            <SquareCard cardText="Outlet" img={sq5} link="/outlet" />
+            <SquareCard cardText="Outlet" img={sq5} link="/categories/outlet" />
           </SwiperSlide>
         </Swiper>
       )}
