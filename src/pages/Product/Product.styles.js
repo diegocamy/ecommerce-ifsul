@@ -107,7 +107,7 @@ export const ProductInfo = styled.div`
 
   span {
     i {
-      color: yellow;
+      color: #ecbb00;
     }
     margin-bottom: 20px;
   }
