@@ -10,6 +10,14 @@ Modulos utilizados no projeto:
 - [React Router](https://reactrouter.com/)
 - [Swiper](https://swiperjs.com/)
 
+Ferramentas adicionais utilizadas:
+
+- [Wireframes](https://wireframe.cc/)
+- [Font Awesome Icons](https://fontawesome.com/)
+- [Undraw: Ilustraçao da pagina 404](https://undraw.co/illustrations)
+- [FontPair: Escolha de fontes](https://www.fontpair.co/)
+- [Coolors: Cores do site](https://coolors.co/)
+
 ## Wireframes
 
 Pagina inicial:
