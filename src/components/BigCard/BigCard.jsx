@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import { BigButton } from "../Button/Button.styles";
 import { Card, CardContainer, Image, SubTexto, Texto } from "./BigCard.styles";
 
-const BigCard = ({ img, text, subtext, buttonText, linkTo }) => {
+const BigCard = ({ img, text, subtext, buttonText, categoria }) => {
   return (
     <CardContainer>
-      <Link to={`/${linkTo}`}>
+      <Link to={`/categories/${categoria}`}>
         <Card>
           <Image src={img} alt="modelo" />
           <Texto>{text}</Texto>

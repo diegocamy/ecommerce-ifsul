@@ -20,6 +20,7 @@ export const obtenerProductosAleatoriosBigCards = (cantidad) => {
       return {
         id: e.id,
         foto: e.foto,
+        categoria: e.categoria,
         text: text.sort(() => Math.random() - Math.random())[0],
         subText: subText.sort(() => Math.random() - Math.random())[0],
         buttonText: buttonText.sort(() => Math.random() - Math.random())[0],

@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home";
 import Footer from "./components/Footer/Footer";
 import Category from "./pages/Category/Category";
 import Product from "./pages/Product/Product";
+import NotFound from "./pages/NotFound/NotFound";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/categories/:category" component={Category} />
         <Route path="/products/:product_slug" component={Product} />
-        <Route render={() => <h1>404 not found</h1>} />
+        <Route component={NotFound} />
       </Switch>
       <Footer />
     </>

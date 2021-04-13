@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 import { Button, WhiteButton } from "../../components/Button/Button.styles";
 import ProductCards from "../../components/ProductCards/ProductCards";
 import Spinner from "../../components/Spinner/Spinner";
@@ -27,6 +27,10 @@ const Product = (props) => {
 
   if (loading) {
     return <Spinner />;
+  }
+
+  if (!loading && !product) {
+    return <Redirect to="/404" />;
   }
 
   return (

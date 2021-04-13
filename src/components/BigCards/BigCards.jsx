@@ -14,6 +14,7 @@ const BigCards = ({ numOfCards }) => {
           text={p.text}
           subtext={p.subText}
           buttonText={p.buttonText}
+          categoria={p.categoria}
         />
       ))}
     </BigCardsContainer>

@@ -10,7 +10,7 @@ import {
   FiltroSuperior,
 } from "./Category.styles";
 import ProductCard from "../../components/ProductCard/ProductCard";
-import { Link } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 
 const Category = (props) => {
   const selectEl = useRef();
@@ -29,6 +29,10 @@ const Category = (props) => {
 
   if (loading) {
     return <Spinner />;
+  }
+
+  if (!loading && products.length === 0) {
+    return <Redirect to="/404" />;
   }
 
   return (
