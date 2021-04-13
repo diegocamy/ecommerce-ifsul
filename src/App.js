@@ -6,11 +6,13 @@ import Footer from "./components/Footer/Footer";
 import Category from "./pages/Category/Category";
 import Product from "./pages/Product/Product";
 import NotFound from "./pages/NotFound/NotFound";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
     <>
       <GlobalStyle />
+      <ScrollToTop />
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
