@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/ecommerce-ifsul/static/js/main.d2ea542b.chunk.js",
-    "main.js.map": "/ecommerce-ifsul/static/js/main.d2ea542b.chunk.js.map",
+    "main.js": "/ecommerce-ifsul/static/js/main.d714a601.chunk.js",
+    "main.js.map": "/ecommerce-ifsul/static/js/main.d714a601.chunk.js.map",
     "runtime-main.js": "/ecommerce-ifsul/static/js/runtime-main.f83c8863.js",
     "runtime-main.js.map": "/ecommerce-ifsul/static/js/runtime-main.f83c8863.js.map",
     "static/css/2.43b28702.chunk.css": "/ecommerce-ifsul/static/css/2.43b28702.chunk.css",
-    "static/js/2.75e8a316.chunk.js": "/ecommerce-ifsul/static/js/2.75e8a316.chunk.js",
-    "static/js/2.75e8a316.chunk.js.map": "/ecommerce-ifsul/static/js/2.75e8a316.chunk.js.map",
+    "static/js/2.fbd0fdbb.chunk.js": "/ecommerce-ifsul/static/js/2.fbd0fdbb.chunk.js",
+    "static/js/2.fbd0fdbb.chunk.js.map": "/ecommerce-ifsul/static/js/2.fbd0fdbb.chunk.js.map",
     "index.html": "/ecommerce-ifsul/index.html",
     "static/css/2.43b28702.chunk.css.map": "/ecommerce-ifsul/static/css/2.43b28702.chunk.css.map",
-    "static/js/2.75e8a316.chunk.js.LICENSE.txt": "/ecommerce-ifsul/static/js/2.75e8a316.chunk.js.LICENSE.txt",
+    "static/js/2.fbd0fdbb.chunk.js.LICENSE.txt": "/ecommerce-ifsul/static/js/2.fbd0fdbb.chunk.js.LICENSE.txt",
     "static/media/404.684f695d.png": "/ecommerce-ifsul/static/media/404.684f695d.png",
     "static/media/app_big.c6b3f9dd.png": "/ecommerce-ifsul/static/media/app_big.c6b3f9dd.png",
     "static/media/app_med.ac71fd1c.png": "/ecommerce-ifsul/static/media/app_med.ac71fd1c.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.f83c8863.js",
     "static/css/2.43b28702.chunk.css",
-    "static/js/2.75e8a316.chunk.js",
-    "static/js/main.d2ea542b.chunk.js"
+    "static/js/2.fbd0fdbb.chunk.js",
+    "static/js/main.d714a601.chunk.js"
   ]
 }
