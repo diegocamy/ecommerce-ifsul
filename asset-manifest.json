@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.js": "/ecommerce-ifsul/static/js/main.d2ea542b.chunk.js",
+    "main.js.map": "/ecommerce-ifsul/static/js/main.d2ea542b.chunk.js.map",
+    "runtime-main.js": "/ecommerce-ifsul/static/js/runtime-main.f83c8863.js",
+    "runtime-main.js.map": "/ecommerce-ifsul/static/js/runtime-main.f83c8863.js.map",
+    "static/css/2.43b28702.chunk.css": "/ecommerce-ifsul/static/css/2.43b28702.chunk.css",
+    "static/js/2.75e8a316.chunk.js": "/ecommerce-ifsul/static/js/2.75e8a316.chunk.js",
+    "static/js/2.75e8a316.chunk.js.map": "/ecommerce-ifsul/static/js/2.75e8a316.chunk.js.map",
+    "index.html": "/ecommerce-ifsul/index.html",
+    "static/css/2.43b28702.chunk.css.map": "/ecommerce-ifsul/static/css/2.43b28702.chunk.css.map",
+    "static/js/2.75e8a316.chunk.js.LICENSE.txt": "/ecommerce-ifsul/static/js/2.75e8a316.chunk.js.LICENSE.txt",
+    "static/media/404.684f695d.png": "/ecommerce-ifsul/static/media/404.684f695d.png",
+    "static/media/app_big.c6b3f9dd.png": "/ecommerce-ifsul/static/media/app_big.c6b3f9dd.png",
+    "static/media/app_med.ac71fd1c.png": "/ecommerce-ifsul/static/media/app_med.ac71fd1c.png",
+    "static/media/app_small.92ad9430.png": "/ecommerce-ifsul/static/media/app_small.92ad9430.png",
+    "static/media/banner1.403045eb.png": "/ecommerce-ifsul/static/media/banner1.403045eb.png",
+    "static/media/banner1sq.80df94d2.png": "/ecommerce-ifsul/static/media/banner1sq.80df94d2.png",
+    "static/media/banner2.e2005978.png": "/ecommerce-ifsul/static/media/banner2.e2005978.png",
+    "static/media/banner2sq.e95d0507.png": "/ecommerce-ifsul/static/media/banner2sq.e95d0507.png",
+    "static/media/sq1.2c552219.png": "/ecommerce-ifsul/static/media/sq1.2c552219.png",
+    "static/media/sq2.c62e5189.png": "/ecommerce-ifsul/static/media/sq2.c62e5189.png",
+    "static/media/sq3.24fdf5f3.png": "/ecommerce-ifsul/static/media/sq3.24fdf5f3.png",
+    "static/media/sq4.1cf1ebbd.png": "/ecommerce-ifsul/static/media/sq4.1cf1ebbd.png",
+    "static/media/sq5.38ad3e7c.png": "/ecommerce-ifsul/static/media/sq5.38ad3e7c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f83c8863.js",
+    "static/css/2.43b28702.chunk.css",
+    "static/js/2.75e8a316.chunk.js",
+    "static/js/main.d2ea542b.chunk.js"
+  ]
+}
