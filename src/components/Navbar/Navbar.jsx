@@ -11,17 +11,19 @@ import {
 } from "./Navbar.styles";
 import { Link, NavLink } from "react-router-dom";
 import { IconButton } from "../Button/Button.styles";
+import { useStickyNavbar } from "../../hooks/useStickyNavbar";
 
 const Navbar = () => {
-  const location = useLocation();
   const [showMenu, setShowMenu] = useState(false);
+  const location = useLocation();
+  const sticky = useStickyNavbar();
 
   useEffect(() => {
     setShowMenu(false);
   }, [location]);
 
   return (
-    <Nav>
+    <Nav sticky={sticky}>
       <Container>
         <Logo>
           <Link to="/">

@@ -3,6 +3,19 @@ import styled from "styled-components";
 export const Nav = styled.nav`
   background-color: ${({ theme }) => theme.orangeWeb};
   color: ${({ theme }) => theme.white};
+  @media screen and (min-width: 801px) {
+    ${({ sticky }) => {
+      if (sticky) {
+        return `
+          position sticky;
+          top: 0;
+          z-index: 49;
+        `;
+      } else {
+        return "position: relative;";
+      }
+    }}
+  }
 `;
 
 export const Container = styled.div`
@@ -139,7 +152,7 @@ export const Links = styled.div`
     position: absolute;
     left: 0;
     top: 59px;
-    background-color: ${({ theme }) => theme.orangeWeb};
+    background-color: ${({ theme }) => theme.orangeWeb} !important;
     z-index: 50;
     width: 100%;
     max-width: 100vw;
